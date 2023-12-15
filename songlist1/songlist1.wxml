@@ -1,0 +1,44 @@
+
+<view class="background">
+<view class="name">{{gdlist1.gdname}}</view>
+<image src="https://pic4.zhimg.com/50/v2-cb35b11b6b7272068cac36861f81c402_hd.jpg?source=1940ef5c" mode=""/>
+
+<view class="con">
+<image class="img1" src="{{gdlist1.img}}" mode=""/>
+</view>
+<view class="bu">
+
+<view  class="bu1">
+  <image class="ima" src="/pages/images/转发.png" mode=""/>
+  <text class="pl">转发</text>
+</view>
+<view  class="bu2"><image class="ima" src="/pages/images/评论 (1).png" mode=""/>
+<text class="pl">评论</text>
+</view>
+<view  class="bu3"><image class="ima" src="/pages/images/收藏 (1).png" mode=""/>
+  <text class="pl">收藏</text>
+</view>
+</view>
+</view>
+
+
+<view class="gd">
+<view class="head">
+<image class="bf1" src="/pages/images/播放1.png" mode=""/>
+<view class="playlistall">播放全部 ({{gdlist1.gdcount}})</view>
+</view>
+<view class="gd1">
+<view class="musicinfo" wx:for="{{gdlist1.song}}" wx:key="*this">
+<view class="t1">{{item.name}}</view>
+<view class="t2">{{item.n1}}</view>
+<image class="bf2" src="/pages/images/216更多-竖向.png" mode=""/>
+<image class="bf3" src="/pages/images/播放MV.png" mode=""/>
+
+</view>
+
+
+
+</view>
+</view>
+
+

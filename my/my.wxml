@@ -1,0 +1,30 @@
+<view class="user">
+<image class="bg2" src="/pages/images/bgImg2.jpg" mode=""/>
+<image class="tx" src="https://ts1.cn.mm.bing.net/th/id/R-C.2dd48f6d632c0ee30762ef852af2ab58?rik=MAmRcspwKsONcQ&riu=http%3a%2f%2fpic.16xx8.com%2fallimg%2f170905%2f1-1FZ5013UK34.thumb.jpg&ehk=Wu%2fQ1SohyPC5xnggG1gO%2f9Npouz2chvsCiZOwW5b%2bQk%3d&risl=&pid=ImgRaw&r=0" mode=""/>
+<view class="nc">圈脏</view>
+<view class="lm">关注 5 粉丝 6 等级 Lv.9</view>
+</view>
+
+<view class="lovem" bind:tap="toLove">
+<view class="im">
+<image class="bg1" src="/pages/images/QQ图片20230910152057.jpg" mode=""/>
+<image class="ax" src="/pages/images/爱心 (1).png" mode=""/>
+</view>
+<view class="text1">我喜欢的音乐</view>
+<view class="text2">80首</view>
+</view>
+
+<view class="gd">
+<view class="cjgd">创建歌单</view>
+<view class="scgd">收藏歌单</view>
+<view class="gdzs">歌单助手</view>
+</view>
+<view class="gdgd">
+<text class="gdgdt">创建歌单(6个)</text>
+<view class="cjgd1" bindtap="toGd"  data-gdlist="{{item}}" wx:for="{{gdlist}}" wx:key="*this">
+<image class="bg22" src="{{item.img}}" mode=""/>
+<view class="tname">{{item.gdname}}</view>
+<view class="tcount">{{item.gdcount}}首</view>
+</view>
+</view>
+

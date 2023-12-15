@@ -1,0 +1,125 @@
+.name{
+  color: rgb(255, 255, 255);
+  font-weight: 1000;
+  font-size: large;
+  left: 25vh;
+  top: 10vh;
+position: absolute;
+}
+
+.bu{
+  width: 100%;
+  position: absolute;
+  top: 190px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.bu1{
+  font-weight: 600;
+  color: rgb(2, 2, 2);
+  width: 85px;
+  height: 30px;
+  border: 1px solid rgb(199, 197, 197);
+  border-radius: 10%;
+}
+.bu2{
+  font-weight: 600;
+  color: rgb(2, 2, 2);
+  width: 85px;
+  height: 30px;
+  border: 1px solid rgb(199, 197, 197);
+  border-radius: 10%;
+}
+.pl{
+  position: relative;
+  left: 15px;
+}
+.bu3{
+  font-weight: 600;
+  color: rgb(2, 2, 2);
+  width: 85px;
+  height: 30px;
+  border: 1px solid rgb(199, 197, 197);
+  border-radius: 10%;
+  
+}
+  
+.img1{
+  border-radius: 10%;
+position: absolute;
+left: 10px;
+top: 35px;
+  height: 20vh;
+  width: 20vh;
+}
+.bf1{
+  position: absolute;
+  margin: 5px;
+  width: 5vh;
+  height: 5vh;
+}
+.gd1{
+  margin: 5px;
+}
+.playlistall{
+  line-height: 36px;
+ margin-left: 40px;
+ 
+}
+
+.bh{
+  width: 45px;
+  height: 59px;
+  position: absolute;
+  left: 12px;
+  bottom: px;
+}
+.bf2{
+  width: 5vh;
+  height: 5vh;
+  left: 280px;
+  bottom: 30px;
+  position: absolute;
+}
+.bf3{
+  width: 5vh;
+  height: 5vh;
+  bottom: 30px;
+  left: 240px;
+  position: absolute;
+}
+.gd2{
+  margin: 5px;
+}
+.ima{
+  top: 4px;
+  left: 8px;
+  position: relative;
+  width: 4vh;
+  height: 4vh;
+}
+.tp1{
+  font-size: 15px;
+  font-weight: 200;
+}
+.musicinfo{
+  margin-left: 10px;
+  position: relative;
+  height: 14vh;
+}
+.musicinfo1{
+  font-weight: 200;
+  margin-left: 10px;
+  margin-bottom: 50px;
+  position: relative;
+  top: -117px;
+ }
+ .t1{
+  margin: 5px;
+ }
+ .t2{
+   margin: 5px;
+   font-size: small;
+   font-weight: 300;
+ }
